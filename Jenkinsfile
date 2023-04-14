@@ -11,7 +11,7 @@ pipeline {
     }
     
     stage('DeployToStaging') {
-            when {
+        when {
                 branch 'master'
             }
             steps {
